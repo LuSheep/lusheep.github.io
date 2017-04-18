@@ -3,8 +3,8 @@ title: Lusheep Blog
 SEOTitle: 廖露阳的博客 | Lusheep Blog
 header-img: img/home-bg.jpg
 email: gm.lusheep@gmail.com
-description: "Lusheep Blog, Share Android Technology"
-keyword: "android;java;"
+description: "关于自定义View、Android开发、Java | lusheep, custom view, Android technology, Java | 这里是 @lusheep 的个人博客，博客在手，说走就走"
+keyword: "廖露阳, lusheep, ViewInMyHeart, 自定义View, android开发, java,  java web, 博客, 个人网站, liaoluyang"
 url: "http://lusheep.me"              # your host, for absolute URL
 baseurl: ""         # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -42,9 +42,10 @@ kramdown:
 
 
 # Disqus settings
-#disqus_username: _your_disqus_short_name_
+disqus_username:your_disqus_short_name
 
 # Duoshuo settings
+
 duoshuo_username: huxblog
 
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
@@ -54,10 +55,11 @@ duoshuo_share: true                     # set to false if you want to use Commen
 
 # Analytics settings
 # Baidu Analytics
-ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+ba_track_id: fb7d82dcae3d6c5fb554159904eec66e
 # Google Analytics
-ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
-ga_domain: huangxuan.me
+# ga_track_id: 'UA-49627206-1'            # Format: UA-xxxxxx-xx
+
+# ga_domain: lusheep.me
 
 
 
@@ -74,22 +76,21 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 
 
+# Progressive Web Apps
+
+chrome-tab-theme-color: "#000000"
+
+service-worker: true
+
+
+
 # Friends
 friends: [
     {
+        title: "开心阳",
+        href: "http://blog.csdn.net/shakespeare001"
+    },{
         title: "Hux Blog",
         href: "http://huangxuan.me"
-    },{
-        title: "Foo",
-        href: "#"
-    },{
-        title: "Bar",
-        href: "#"
-    },{
-        title: "Example Friends",
-        href: "#"
-    },{
-        title: "It helps SEO",
-        href: "#"
     }
 ]
