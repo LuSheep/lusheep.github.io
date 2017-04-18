@@ -42,7 +42,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username:your_disqus_short_name
+# disqus_username:your_disqus_short_name
 
 # Duoshuo settings
 
