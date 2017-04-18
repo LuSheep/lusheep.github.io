@@ -46,7 +46,7 @@ kramdown:
 
 # Duoshuo settings
 
-duoshuo_username: huxblog
+# duoshuo_username: 
 
 duoshuo_share: true                     # set to false if you want to use Comment without Sharing
 
