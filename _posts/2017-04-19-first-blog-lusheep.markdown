@@ -4,7 +4,7 @@ title:      "我也有博客小站了"
 subtitle:   "辛辛苦苦一两天，总算建好了"
 date:       2017-04-19
 author:     "Lusheep"
-header-img: "img/post-bg-js-version.jpg"
+header-img: "img/post-first-blog-bg.jpg"
 tags:
     - 杂谈
 ---
