@@ -10,15 +10,17 @@ description: "你的努力程度之低，根本轮不到拼天赋"
             {{ post.title }}
         </h2>
     </a>
-    {% if post.subtitle %}
-    <h3 class="post-subtitle">
-        {{ post.subtitle }}
-    </h3>
-    {% endif %}
-    <div class="post-content-preview">
-        {{ post.content | strip_html | truncate:200 }}
-    </div>
-    
+    <a > <!-- 原模板中，把上面的a链接包含到了下面的h3和div两部分，感觉一大坨都是链接了，这里我稍微修改了下，在下面单独加了a标签，但是没有href，这样只有点击标题才能进入链接正文，而要加a是因为下面定义的css是属于a标签下的... -->
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+        <div class="post-content-preview">
+            {{ post.content | strip_html | truncate:200 }}
+        </div>
+    </a>
+
     <p class="post-meta">
         Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
     </p>
